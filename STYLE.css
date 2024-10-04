@@ -1,0 +1,94 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #049f2846; /* Light green background */
+}
+
+/* Header section styling */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Section for the to-do list form */
+#todo-section {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Task container styling */
+#tasks-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column; /* Arrange tasks in a column */
+}
+
+/* Styling for individual tasks */
+.task {
+    background: #2e0606; /* Dark background for task cards */
+    padding: 15px; /* Increased padding for better spacing */
+    margin: 10px 0; /* Space between tasks */
+    border-radius: 3px;
+    line-height: 1.5; /* Improve readability */
+    color: #fff; /* White text color for contrast */
+    white-space: pre-line; /* Maintain line breaks in tasks */
+}
+
+/* Styling for labels and form inputs */
+label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+input[type="text"], input[type="date"], select {
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Button styling */
+button {
+    background-color: #049f28; /* Green button background */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #038f23; /* Darken button on hover */
+}
+
+/* Delete button within tasks */
+.delete-btn {
+    background-color: #e74c3c; /* Red delete button */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right; /* Align delete button to the right */
+}
+
+.delete-btn:hover {
+    background-color: #c0392b; /* Darken delete button on hover */
+}
+
+/* Footer styling */
+footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer strong {
+    color: #2e0606;
+}
